@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(f.jpg) no-repeat;
+    background-size: cover;
+    height: 923px;
+}
+
+.login-box{
+    width: 200px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.login-box h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid green;
+    margin-bottom: 50px;
+    padding-bottom: 20px
+}
+
+.textbox{
+    width: 100%;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    overflow: hidden;
+    border-bottom: 1px solid green;
+}
+
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.textbox input{
+    float: left;
+    width: 80%;
+    margin: 0;
+    font-size: 18px;
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.btn{
+    width: 100%;
+    color: white;
+    background: none;
+    font-size: 18px;
+    padding: 5px;
+    margin: 12px;
+    outline: none;
+    border: 2px solid green;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    color: tomato;
+}
